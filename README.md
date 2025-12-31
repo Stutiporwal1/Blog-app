@@ -20,8 +20,11 @@ This project also includes a **subscription feature** with CRUD operations for m
 | Package Manager| npm / yarn |
 
 
+### Install dependencies
 
-## Getting Started
+npm install
+# or
+yarn install
 
 Run the development server:
 
