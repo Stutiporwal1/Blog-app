@@ -3,6 +3,14 @@
 A full-stack Blog Application built using **Next.js**, allowing users to browse and read blogs.  
 This project also includes a **subscription feature** with CRUD operations for managing email subscribers.
 
+## Features
+
+-  Blog listing and blog detail pages  
+-  Email subscription system (CRUD API)
+-  Built with Next.js App Router  
+-  Reusable components architecture  
+-  Organized file structure (app, components, lib, blogs, assets) 
+
 
 
 
