@@ -11,6 +11,15 @@ This project also includes a **subscription feature** with CRUD operations for m
 -  Reusable components architecture  
 -  Organized file structure (app, components, lib, blogs, assets) 
 
+## 🛠️ Tech Stack
+
+| Category       | Technology |
+|----------------|-------------|
+| Frontend       | Next.js (App Router), React |
+| Backend        | Next.js API Routes |
+| Database/Model | (Add — Example: MongoDB / Local JSON / etc.) |
+| Styling        | (Add — TailwindCSS / CSS Modules / etc.) |
+| Package Manager| npm / yarn |
 
 
 
