@@ -22,8 +22,8 @@ This project also includes a **subscription feature** with CRUD operations for m
 
 ### Install dependencies
 
-npm install
-yarn install
+- npm install
+- yarn install
 
 Run the development server:
 
