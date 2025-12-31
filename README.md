@@ -23,7 +23,6 @@ This project also includes a **subscription feature** with CRUD operations for m
 ### Install dependencies
 
 npm install
-# or
 yarn install
 
 Run the development server:
