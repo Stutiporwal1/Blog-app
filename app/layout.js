@@ -37,3 +37,39 @@ export default function RootLayout({ children }) {
   );
 }
 
+
+"use client";
+
+import Link from "next/link";
+import { useTheme } from "next-themes";
+import { useEffect, useState } from "react";
+
+export default function Navbar() {
+  const { theme, setTheme } = useTheme();
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => setMounted(true), []);
+
+  if (!mounted) return null;
+
+  return (
+    <nav className="flex items-center justify-between px-6 py-4 border-b">
+      <Link href="/" className="text-xl font-bold">
+        BlogApp
+      </Link>
+
+      <div className="flex items-center gap-4">
+        <Link href="/blogs">Blogs</Link>
+        <Link href="/about">About</Link>
+
+        <button
+          onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+          className="px-3 py-1 border rounded"
+        >
+          {theme === "dark" ? "☀️ Light" : "🌙 Dark"}
+        </button>
+      </div>
+    </nav>
+  );
+}
+
