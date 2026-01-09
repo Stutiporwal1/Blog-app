@@ -80,3 +80,11 @@ export default function Footer() {
     </footer>
   );
 }
+
+export default function Loading() {
+  return (
+    <div className="flex h-screen items-center justify-center">
+      <p className="animate-pulse text-lg font-medium">Loading...</p>
+    </div>
+  );
+}
