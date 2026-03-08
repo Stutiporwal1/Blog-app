@@ -6,7 +6,7 @@ This project also includes a subscription feature with CRUD operations for manag
 ## Features
 
 -  Blog listing and blog detail pages  
--  Email subscription system (CRUD API)
+-  Email subscription system ((Create, Read, Update, Delete) CRUD API)
 -  Built with Next.js App Router  
 -  Reusable components architecture  
 -  Organized file structure (app, components, lib, blogs, assets) 
